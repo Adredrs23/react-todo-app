@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: beige
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#authenticate{
+  width: 20rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:1rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 8rem darkgoldenrod;
+  color:firebrick;
+}
+
+#authenticate div{
+  margin:1rem;
+  display:flex;
+  justify-content: space-around;
+}
+
+#authenticate input{
+  margin-bottom: 1rem;
+  outline-color: coral;
+  border-color:crimson;
+  border-radius: .5rem;
+  height: 1.5rem;
+}
+
+#authenticate label{
+  margin-bottom: .5rem;
+  font-weight: bold;
+}
+
+#authenticate button{
+  background-color: firebrick;
+  width:5rem;
+  height: 2.5rem;
+  border:none;
+  border-radius: .5rem;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+}
+
+#logout__btn{
+  background-color: firebrick;
+  width:5rem;
+  height: 2.5rem;
+  border:none;
+  border-radius: .5rem;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+}
+
+
+.todoItem{
+  width:20rem;
+  margin: 1rem auto;
+  padding:1rem;
+  background-color: darkgoldenrod;
+  border-radius: 5rem;
+  color:whitesmoke;
+}
+
+.header{
+  background-color: darkslategray;
+  height: 5rem;
+  width: 30rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:0;
+  margin:auto;
+  color:wheat
+}
+
+.delIcon{
+  float: right;
+  color:whitesmoke;
+  padding:0.5rem ;
+  /* border: 2px solid; */
+  border-radius: 100%;
+  background-color: darkslategray;
+
+}
+
+.todoAdd{
+  margin:auto;
+  width:480px;
+  display: flex;
+  
+}
+.todoAdd input{
+  color:whitesmoke;
+  width: stretch;
+  background-color:darkgoldenrod;
+  border:1px white solid;
+  padding:0;
+  height: 2.1rem;
+  margin-top: 5px;  
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+}
+
+.todoAdd i{
+  color:darkslategray;
+}
+
+::placeholder{
+  color:whitesmoke;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.nav{
+  background-color: darkgoldenrod;
+  color:wheat;
+  /* padding:5px;  */
+  display: flex;
+  justify-content: center;
+  width:30rem;
+  margin: 0 auto 5px auto;
+}
+
+.nav li{
+  list-style-type: none;
+  padding:0 2rem;
+}
+.nav a{
+  text-decoration: none;
+  color:wheat;
+}
